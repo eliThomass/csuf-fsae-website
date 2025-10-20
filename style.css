@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-content {
+    background-color: #01264d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    height: 120px; /* Original header height */
+}
+
+header img {
+    width: 60px;
+    height: 80px;
+}
+
+.belowheader {
+    background-color: #001f3d;
+    height: 30px;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    margin-left: 70px;
+}
+
+nav a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+    text-shadow: 2px 0px 2px rgb(4, 4, 4);
+}
+
+nav a:hover{
+    cursor: pointer;
+    color: rgb(180, 178, 178);
+}
+
+/* CSS for Main Page slideshow */
+
+#slideshow {
+    display: flex;
+    height: 810px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    /* Stack all slides on top of each other */
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    /* Make slides invisible by default */
+    opacity: 0;
+    
+    /* Set the base z-index for inactive slides */
+    z-index: 0;
+    
+    /* Any change to opacity takes two seconds */
+    transition: opacity 2s ease-in-out;
+}
+
+.active-slide {
+    /* Make the active slide visible */
+    opacity: 1;
+    
+    /* Bring the active slide to the front */
+    z-index: 1;
+}
+
+.slidetext {
+    margin-left: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 4px 2px 2px rgb(4, 4, 4);
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    background-color:#01264d;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutustext {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    text-shadow: 4px 2px 2px rgb(4, 4, 4);
+}
+
+.team {
+    height: 490px; /* Give it a specific height */
+    width: 1100px;
+    scale: 90%;
+    
+    /* Use Flexbox to center the content */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-end;
+}
+
+.teamdesc {
+    width: 58%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+}
