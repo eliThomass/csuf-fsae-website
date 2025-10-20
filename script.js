@@ -1,7 +1,7 @@
 
-const sliderImages = ["assets/images/rs=w_2320h_1547 (1).png", 
-                "assets/images/Photo Sep 18 2024 4 50 10 PM (1)_edited_edited.png",
-                "assets/images/croppeddsc0999.png"
+const sliderImages = ["assets/images/index/rs=w_2320h_1547 (1).png", 
+                "assets/images/index/Photo Sep 18 2024 4 50 10 PM (1)_edited_edited.png",
+                "assets/images/index/croppeddsc0999.png"
 ]   
 // Get all the slide elements into a list
 const slides = document.querySelectorAll("#slideshow .slide");
