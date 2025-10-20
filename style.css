@@ -161,6 +161,12 @@ footer {
 
 /* About us image and info */
 
+.fading-orange-linear {
+  background: linear-gradient(to top, orange, rgba(255, 165, 0, 0));
+  height: 100%;
+  width: 100%;
+}
+
 .aboutus {
     display: flex;
     flex-direction: column;
@@ -190,6 +196,11 @@ footer {
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 25px;
+
+    background-image: url('assets/images/index/2025team1grad.png'); 
+    background-size: cover; 
+    background-position: center -180px;
+    border-radius: 8px;
 }
 
 .teamdesc {
@@ -199,6 +210,7 @@ footer {
     font-weight: lighter;
     color: white;
     font-size: 17px;
+    text-shadow: 1px 1px black;
 }
 
 /* CSS for the GIF videos near the end of the page */
