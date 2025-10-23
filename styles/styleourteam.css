@@ -96,13 +96,12 @@ footer {
 
 /* END OF PAGE SIMILAR CONTENT */
 
-.inter-font {
+.inter-300 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
-
 
 #ourteam-main-pic{
     display: flex;
@@ -131,4 +130,61 @@ footer {
     font-size: 60px;
     font-style: italic;
     text-shadow: 4px 2px 2px rgb(4, 4, 4);
+}
+
+.ourteamcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 510px;
+    width: 300px;
+    border: solid 1px rgba(255, 255, 255, 0.237);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.imgframe {
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.ourteamcard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ourteam-body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #01264d;
+    padding-top: 10px;
+}
+
+#ourteam-body h2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+
+.imgcards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8%;
 }
