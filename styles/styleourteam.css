@@ -169,6 +169,7 @@ footer {
     flex-direction: column;
     background-color: #01264d;
     padding-top: 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 #ourteam-body h2 {
