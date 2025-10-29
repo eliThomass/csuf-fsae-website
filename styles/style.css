@@ -13,6 +13,7 @@ header {
 header img {
     width: 60px;
     height: 80px;
+    margin-left: 20px;
 }
 
 .header-content {
@@ -29,6 +30,7 @@ nav {
     display: flex;
     gap: 25px;
     margin-left: 70px;
+    flex-wrap: wrap;
 }
 
 nav a{

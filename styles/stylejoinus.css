@@ -9,7 +9,9 @@ header {
 header img {
     width: 60px;
     height: 80px;
+    margin-left: 20px;
 }
+
 
 .header-content {
     background-color: #01264d;
