@@ -1,7 +1,7 @@
 # Cal State Fullerton's Formula SAE Website
 ## Titan Racing
 
-This is the official code repository for the [Your University Name] FSAE team website. This site serves as the main information hub for members, potential recruits, and sponsors.
+This is the official code repository for the California State University Fullerton FSAE team website. This site serves as a main information hub for members, potential recruits, and sponsors.
 
 **View the live site: WIP**
 ---
