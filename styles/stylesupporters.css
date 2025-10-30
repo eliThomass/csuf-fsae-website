@@ -1,3 +1,7 @@
+main {
+    padding-top: 150px;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -205,4 +209,50 @@ footer {
     height: 100px; 
     width: auto; 
     object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+
+    .slide {
+        background-attachment: scroll;
+    }
+
+    .header-content {
+        /* Stack the header items (like logo and nav) vertically */
+        flex-direction: column;
+
+        /* Let the header height adjust to the content */
+        height: auto;
+
+        /* Reduce the gap between the logo and the nav block */
+        gap: 20px;
+
+        /* Add some vertical padding */
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header img {
+        /* Remove the side margin so the logo centers correctly */
+        margin-left: 0;
+    }
+
+    nav {
+        /* Stack the navigation links vertically */
+        flex-direction: column;
+
+        /* Remove the large margin from the desktop layout */
+        margin-left: 0;
+
+        /* Reduce the gap between each link */
+        gap: 15px;
+    }
+
+    nav a {
+        /* Make the font size smaller for mobile */
+        font-size: 22px;
+
+        /* Optional: Text shadow can be hard to read on small screens */
+        text-shadow: none;
+    }
 }
