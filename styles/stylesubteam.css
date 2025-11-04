@@ -11,7 +11,7 @@ header {
 
 header img {
     width: 60px;
-    height: 80px;
+    height: 81px;
     margin-left: 20px;
 }
 
@@ -156,11 +156,11 @@ footer {
 
 .cardhead {
     margin-left: 20px;
-    width: 300px;
+    width: 450px;
     color: white;
     font-size: 70px;
     font-style: italic;
-    text-align: center;
+    text-align: flex-start;
     margin-top: 0;
     margin-bottom: 5px;
     font-family: "Inter", sans-serif;
@@ -173,9 +173,9 @@ footer {
 .cardtext {
     margin-left: 20px;
     margin-top: 0px;
-    width: 300px;
+    width: 450px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
