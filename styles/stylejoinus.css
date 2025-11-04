@@ -202,3 +202,105 @@ footer {
     background-color: rgb(178, 171, 171);
 
 }
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+
+    .header-content {
+        justify-content: space-between;
+        
+        gap: 0;
+    }
+
+    .menu-toggle {
+        display: block; 
+    }
+
+    /* dropdown menu on mobile */
+    nav {
+        display: none;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 100%;
+        background-color: #01264d;
+        
+        flex-direction: column; 
+        margin-left: 0;
+        gap: 0;
+        
+        border-bottom: 3px solid #001f3d;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    nav a {
+        font-size: 22px;
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+        text-shadow: none;
+        border-bottom: 1px solid #001f3d;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+    
+    nav a:hover {
+        background-color: #001f3d;
+        color: white;
+    }
+
+    .slidetext {
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #welcome {
+        font-size: 40px;
+    }
+
+    #welcomeimg {
+        width: 80%;
+        background-image: url('../assets/images/joinus/joinus.jpeg');
+        align-items: flex-start;
+    }
+
+    #welcometext {
+        width: 95%;
+        text-shadow: 2px 2px 2px black;
+        font-weight: bold;
+        color: white;
+        margin-top: 510px;
+    }
+
+    #buttons {
+        padding-top: 130px;
+        gap: 10%;
+        width: 90%;
+        height: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding-right: 20px;
+    }
+
+}

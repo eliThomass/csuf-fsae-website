@@ -330,30 +330,30 @@ footer {
     .team {
         display: block;
         width: 95%;
-        height: auto; /* Let height be automatic */
+        height: auto;
         scale: 1;
-        background-image: none; /* We are moving the image */
-        padding: 0; /* Remove any padding */
+        background-image: none;
+        padding: 0;
     }
 
-    /* We use ::before to create the image *inside* the container */
+    /* use ::before to create the image inside the container */
     .team::before {
         content: "";
         display: block;
         width: 100%;
-        height: 300px; /* This is the height of your image */
+        height: 300px;
         background-image: url('../assets/images/index/2025team1grad.png'); 
         background-size: cover;
-        background-position: center center; /* Re-center the photo */
+        background-position: center center;
         border-radius: 8px;
-        background-size: contain; /* ADDED */
-        background-repeat: no-repeat; /* ADDED */
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .teamdesc {
         width: 90%;
         font-size: 16px;
-        margin: 10px auto 0 auto; /* Add margin to the top */
+        margin: 10px auto 0 auto;
     }
 
 }
