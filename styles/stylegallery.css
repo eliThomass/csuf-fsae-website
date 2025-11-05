@@ -174,7 +174,7 @@ footer {
     /* This is the fix: */
     width: auto;        /* Set a fixed width */
     height: 250px;       /* Set a fixed height */
-    object-fit: cover;   /* This makes all images fill the box, cropping as needed */
+    object-fit: contain;   /* This makes all images fill the box, cropping as needed */
     border-radius: 8px;  /* Optional: makes it look cleaner */
 }
 
@@ -266,6 +266,7 @@ footer {
     #gallery-years img {
         width: 90%;
         height: 250px; 
+        object-fit: contain;
         
     }
     .slide {
