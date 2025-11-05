@@ -126,7 +126,7 @@ footer {
     background-position: center 86%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    zoom: 108%;
+    zoom: 100%;
 }
 
 .slidetext {
@@ -308,14 +308,12 @@ footer {
         min-height: auto; 
     }
 
-    /* 5. Make the text inside the card use the new width */
     .sponsercard p {
-        width: 90%; /* Widen from 60% to fit the new card size */
+        width: 90%; 
     }
 
-    /* 6. Make the bottom image grid wider */
     #sponserimagescondensed {
-        width: 90%; /* Widen from 60% */
+        width: 90%;
         row-gap: 30px;
     }
 
@@ -328,5 +326,13 @@ footer {
 
     .slide {
         background-size: cover;
+    }
+
+    .slide {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        zoom: 1;  
+        background-size: cover;
+        background-position: center;
     }
 }
