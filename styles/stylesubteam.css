@@ -1,5 +1,8 @@
 /* HEADER AND FOOTER STYLING
    Remains the same for every page */
+body {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
 
 header {
     display: flex;
@@ -160,7 +163,7 @@ footer {
     margin-left: 20px;
     width: 450px;
     color: white;
-    font-size: 70px;
+    font-size: clamp(36px, 8vh, 70px);
     font-style: italic;
     text-align: flex-start;
     margin-top: 0;
@@ -177,7 +180,7 @@ footer {
     margin-top: 0px;
     width: 450px;
     color: white;
-    font-size: 20px;
+    font-size: clamp(14px, 2.3vh, 19px);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -273,6 +276,13 @@ footer {
     .cardtext {
         width: 90%; 
         font-size: 15px; 
+    }
+    .slide {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        zoom: 1;  
+        background-size: cover;
+        background-position: center 30%;
     }
 }
 

@@ -2,6 +2,9 @@
 /* HEADER AND FOOTER STYLING
    Remains the same for every page */
 
+body {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
 header {
     display: flex;
     flex-direction: column;
