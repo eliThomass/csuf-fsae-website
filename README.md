@@ -6,8 +6,10 @@ This is the official code repository for the California State University Fullert
 **View the live site: https://www.csuftitanracing.com/**
 ---
 
-## Preview of the Main Page
-![Main Page of Titan Racing](./assets/mainpage.png)
+## Preview of the Main Page (Desktop)
+![Main Page of Titan Racing (Desktop)](./assets/mainpage.png)
+## Preview of the Main Page (Mobile)
+![Main Page of Titan Racing (Mobile)](./assets/mainmobile.png)
 
 ---
 
