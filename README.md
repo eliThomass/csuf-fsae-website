@@ -3,7 +3,7 @@
 
 This is the official code repository for the California State University Fullerton FSAE team website. This site serves as a main information hub for members, potential recruits, and sponsors.
 
-**View the live site: WIP**
+**View the live site: https://www.csuftitanracing.com/**
 ---
 
 ## Preview of the Main Page
